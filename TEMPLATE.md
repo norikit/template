@@ -17,7 +17,6 @@ Search the repo for these tokens and replace every occurrence:
 | `{{PROJECT}}` | the tool's name, `nori…` motif, lowercase | `noribar` |
 | `{{TAGLINE}}` | one-line description of what it is | `a macOS menu-bar replacement` |
 | `{{ECOSYSTEM_ROLE}}` | one sentence on how it fits norikit | `…driven by native animated SF Symbols` |
-| `{{STATUS}}` | shields.io status text | `work%20in%20progress` |
 | `{{DATE}}` | today, `YYYY-MM-DD` | `2026-05-31` |
 | `{{OS_FLOOR}}` | minimum OS you support | `macOS 13` |
 
