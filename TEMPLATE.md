@@ -17,15 +17,15 @@ Search the repo for these tokens and replace every occurrence:
 | `{{PROJECT}}` | the tool's name, `nori…` motif, lowercase | `noribar` |
 | `{{TAGLINE}}` | one-line description of what it is | `a macOS menu-bar replacement` |
 | `{{ECOSYSTEM_ROLE}}` | one sentence on how it fits norikit | `…driven by native animated SF Symbols` |
-| `{{STATUS}}` | shields.io status text | `work%20in%20progress` |
 | `{{DATE}}` | today, `YYYY-MM-DD` | `2026-05-31` |
 | `{{OS_FLOOR}}` | minimum OS you support | `macOS 13` |
 
 ## What to do, in order
 
 1. Replace the tokens above.
-2. Add hero art at `assets/hero-light.svg` + `assets/hero-dark.svg` (or remove the
-   `<picture>` block from `README.md` until you have it).
+2. Add hero and icon art to the central asset store at `norikit/norikit/assets/{{PROJECT}}/`
+   (dark_theme.svg, dark_theme.png, light_theme.svg, light_theme.png for both `hero/` and
+   `icon/` subdirs). The README already references these URLs once `{{PROJECT}}` is replaced.
 3. Fill `ai-docs/decisions.md` with your real day-one decisions (platform, stack, OS floor,
    UI/config approach if applicable, noriglaze integration). Leave the `D#`/`Q#` scheme.
 4. Choose your stack and add its **build manifest** at the repo root, a **lint config**, and
