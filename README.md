@@ -6,9 +6,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg"/>
-    <img src="assets/hero-light.svg" alt="{{PROJECT}}" width="100%"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/norikit/norikit/main/assets/{{PROJECT}}/hero/dark_theme.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/norikit/norikit/main/assets/{{PROJECT}}/hero/light_theme.svg"/>
+    <img src="https://raw.githubusercontent.com/norikit/norikit/main/assets/{{PROJECT}}/hero/light_theme.svg" alt="{{PROJECT}}" width="100%"/>
   </picture>
 </p>
 
