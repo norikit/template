@@ -23,7 +23,7 @@ jobs:
     name: Build & test
     runs-on: ubuntu-latest   # TEMPLATE: switch to your target runner (e.g. macos-15).
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       # TEMPLATE: detect your build manifest. Replace `Package.swift` / `package.json` /
       # `Cargo.toml` / etc. with the manifest your stack uses.
@@ -49,7 +49,7 @@ jobs:
     name: Lint
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       # TEMPLATE: detect your lint config (e.g. .swiftlint.yml, .eslintrc, ruff.toml).
       - name: Detect lint config
