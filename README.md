@@ -7,8 +7,8 @@
 </p>
 
 <p align="center">
-  <strong>{{PROJECT}}</strong> is {{TAGLINE}} for the <strong>norikit</strong> ecosystem.<br/>
-  {{ECOSYSTEM_ROLE}}
+  <strong>{{PROJECT}}</strong> — {{TAGLINE}}.<br/>
+  Part of the <strong>norikit</strong> ecosystem.
 </p>
 
 > [!NOTE]
